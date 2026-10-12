@@ -30,7 +30,7 @@
 <footer class="foot">Made with love ♡ · 手機、平板與電腦皆可使用</footer></main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-const SUPABASE_URL="YOUR_SUPABASE_PROJECT_URL",SUPABASE_ANON_KEY="YOUR_SUPABASE_ANON_KEY",EVENT_ID="baby-shower-2026",MAX_VOTES=50;
+const SUPABASE_URL="https://yeeslpuxydgghyitwdio.supabase.co",SUPABASE_ANON_KEY="sb_publishable_hnTm9v3Nu3MEdYmFeFIvUQ_oVHt7Cib"="YOUR_SUPABASE_ANON_KEY",EVENT_ID="baby-shower-2026",MAX_VOTES=50;
 const configured=SUPABASE_URL.startsWith("https://")&&!SUPABASE_URL.includes("YOUR_")&&!SUPABASE_ANON_KEY.includes("YOUR_");
 const $=id=>document.getElementById(id);let db=null,choice=null,votes=[],eventData=null,session=null;
 function msg(id,s,err=false){$(id).textContent=s;$(id).classList.remove("hidden");$(id).style.background=err?"#fff0ef":""}
